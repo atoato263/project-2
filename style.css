@@ -26,11 +26,10 @@ body {
   justify-content: center;
   font-size: x-large;
   align-items: center;
-  text-align: center;
 }
 .pic {
-  text-align: center;
-  margin-bottom: 50px;
+  position: relative;
+  left: 1px;
   filter: drop-shadow(10px 30px 20px rgba(0, 0, 0, 0.1));
 }
 .infor p {
@@ -58,18 +57,13 @@ body {
 }
 .cost {
   display: flex;
-  flex-direction: row;
   margin-top: 30px;
   gap: 200px;
-}
-.cost {
-  display: flex;
   align-items: center;
 }
 .shopping {
   font-size: larger;
   text-align: center;
-  line-height: 60px;
   height: 60px;
   width: 300px;
   background: linear-gradient(to right, #25f57b, #93f6bc);
